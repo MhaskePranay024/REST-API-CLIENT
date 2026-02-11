@@ -19,6 +19,6 @@ The application uses the HttpClient class available in Java 11 and later to send
 
 Once a valid JSON response is received, the program parses the returned data to extract key information, including the user’s login name, full name, biography, number of public repositories, followers, and following count. The extracted data is then formatted and displayed clearly in the console. This task demonstrates practical knowledge of REST API consumption, HTTP request handling, JSON parsing, and structured data presentation using Java, fulfilling the requirements of developing a functional Java application that interacts with external web services.
 
-#OUTPUT OF THE TASK
+# OUTPUT OF THE TASK
 
 <img width="1588" height="925" alt="Image" src="https://github.com/user-attachments/assets/62a93bf9-bb19-4d3d-9611-ff34e0c647e5" />
