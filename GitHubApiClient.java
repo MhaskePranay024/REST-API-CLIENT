@@ -37,6 +37,7 @@ public class GitHubApiClient {
 
     private static void parseAndDisplay(String json) {
 
+        // Simple manual parsing
         String login = extract(json, "\"login\":\"", "\"");
         String name = extract(json, "\"name\":\"", "\"");
         String bio = extract(json, "\"bio\":\"", "\"");
